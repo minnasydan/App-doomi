@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <link rel="icon" href="images/doomi-favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>doomi - moduulitalot</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="App.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img class="logo-img-top" src="images/doomi-logo.png" alt="doomi-moduulitalot"></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="mallisto.html">Mallisto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="company.html">Yrityksille</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="moduuli.html">Moduulit</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="experience.html">Kokemuksia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Yhteys</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active" style="background-image: url('images/moduulitalo-1.png')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Mallisto</h3>
+            <p>Löydä unelmiesi koti valmiista talomalleista</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Page Heading/Breadcrumbs -->
+    <h1 class="mt-4 mb-3">
+      <small></small>
+    </h1>
+
+
+    <!-- <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="index.html">Home</a>
+      </li>
+      <li class="breadcrumb-item active">Portfolio 1</li>
+    </ol> -->
+
+    <h2>Talomallisto</h2>
+
+    <div class="row">
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="talomalli_1.html"><img class="card-img-top hover-shadow cursor" src="images/talomalli-1.png" alt="" onclick="openModal();currentSlide(1)"></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="talomalli_1.html">Talomalli 1</a>
+            </h4>
+            <p class="card-text">Tämä koti on oikea tilaihme. Tehokkaasti suunniteltu pohjaratkaisu antaa mahdollisuuksia monenlaiseen asumiseen ja harrastustoimintaan.</p>
+            <p style="size: 1px;"></p>
+            <p>Hinta: <b class="boldText">107 900 € </b>(sis. alv)</p>
+            <p style="size: 1px;"></p>
+            <p>Katso lisätietoja ja kuvia talomallista <a class="boldText" href="talomalli_1.html"><b>Täältä</b></a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="talomalli_2.html"><img class="card-img-top" src="images/talomalli-2.png" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="talomalli_2.html">Talomalli 2</a>
+            </h4>
+            <p class="card-text">Tässä talossa on mietitty kaikki neliöt toimivaksi kokonaisuudeksi. Keittiö ja olohuone ovat yhtenäistä avointa tilaa. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
+            <p style="size: 1px;"></p>
+            <p>Hinta: <b class="boldText">117 900 € </b>(sis. alv)</p>
+            <p style="size: 1px;"></p>
+            <p>Katso lisätietoja ja kuvia talomallista <a class="boldText" href="talomalli_2.html"><b>Täältä</b></a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="talomalli_3.html"><img class="card-img-top" src="images/talomalli-3.png" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="talomalli_3.html">Talomalli 3</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
+            <p style="size: 1px;"></p>
+            <p>Hinta: <b class="boldText">99 900 € </b>(sis. alv)</p>
+            <p style="size: 1px;"></p>
+            <p>Katso lisätietoja ja kuvia talomallista <a class="boldText" href="talomalli_3.html"><b>Täältä</b></a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="talomalli_4.html"><img class="card-img-top" src="images/talomalli-4.png" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="talomalli_4.html">Talomalli 4</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            <p style="size: 1px;"></p>
+            <p>Hinta: <b class="boldText">105 900 € </b>(sis. alv)</p>
+            <p style="size: 1px;"></p>
+            <p>Katso lisätietoja ja kuvia talomallista <a class="boldText" href="talomalli_4.html"><b>Täältä</b></a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="talomalli_5.html"><img class="card-img-top" src="images/talomalli-5.png" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="talomalli_5.html">Talomalli 5</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            <p style="size: 1px;"></p>
+            <p>Hinta: <b class="boldText">107 900 € </b>(sis. alv)</p>
+            <p style="size: 1px;"></p>
+            <p>Katso lisätietoja ja kuvia talomallista <a class="boldText" href="talomalli_5.html"><b>Täältä</b></a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="talomalli_6.html"><img class="card-img-top" src="images/talomalli-6.png" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="talomalli_6.html">Talomalli 6</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.</p>
+            <p style="size: 1px;"></p>
+            <p>Hinta: <b class="boldText">127 900 € </b>(sis. alv)</p>
+            <p style="size: 1px;"></p>
+            <p>Katso lisätietoja ja kuvia talomallista <a class="boldText" href="talomalli_6.html"><b>Täältä</b></a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <hr>
+
+    <!-- Call to Action Section -->
+    <div class="row mb-4">
+      <div class="col-md-8">
+        <p>Heräsikö kysymyksiä tai haluatko lisätietoja Doomi -moduulitaloista. Ota meihin yhteyttä.</p>
+      </div>
+      <div class="col-md-4">
+        <a class="btn btn-lg btn-secondary btn-block" href="contact.html">Ota yhteyttä</a>
+      </div>
+    </div>
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div><a href="index.html"><img class="rounded mx-auto d-block logo-img-bottom" src="images/doomi-valkoinen-logo.png" alt=""></a></div>
+    <div class="container">      
+      <p class="m-0 text-center text-white">&copy; Doomi 2021</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="jquery/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

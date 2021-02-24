@@ -1,0 +1,25 @@
+{
+  "name": "app-doomi",
+  "version": "1.0.0",
+  "description": "doomi",
+  "main": "bootstrap.bundle.min.js",
+  "scripts": {
+    "test": "doomi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minnasydan/Koodit.git"
+  },
+  "keywords": [
+    "doomi"
+  ],
+  "author": "minnasydan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minnasydan/Koodit/issues"
+  },
+  "homepage": "https://github.com/minnasydan/Koodit#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2"
+  }
+}
