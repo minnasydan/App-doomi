@@ -5,7 +5,8 @@
  */
  body {
     padding-top: 56px;
-    font-family: sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    /* font-family: 'Ubuntu Condensed', sans-serif; */
   }
   
   .carousel-item {
@@ -48,6 +49,6 @@
   .fonttiKoko {
     font-size: 10px;
   }
-  
+
 
   
